@@ -35,7 +35,7 @@ if os.name == "nt":
         pass
 
 # Core functions and dataclasses from the analysis module
-from charlie_core import (
+from ai_chess_coach.charlie import (
     run_pipeline,
     emit_markdown,
     emit_key_positions_csv,
